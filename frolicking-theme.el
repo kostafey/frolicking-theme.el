@@ -1,4 +1,4 @@
-;;; frolicking-theme.el --- frolicking-light-theme
+;;; frolicking-theme.el --- light sunshine and frolic theme
 
 ;;; Commentary:
 ;;
@@ -8,7 +8,7 @@
 (deftheme frolicking "DOCSTRING for frolicking-theme")
 
 (let ((frolicking-background        "#FAF9F5")
-      (frolicking-foreground        "#2E2C2B") ; "#32302F" "#1F1E1D"
+      (frolicking-foreground        "#32302F") ; "#2E2C2B" "#1F1E1D"
       (frolicking-fringe            "#F5F4ED")
       (frolicking-modeline          "#E6E4DB")
       (frolicking-modeline-inactive "#EBE9E0")
@@ -43,8 +43,8 @@
    `(mode-line-inactive ((t :foreground ,frolicking-foreground :background ,frolicking-modeline-inactive)))
    `(region ((t (:background ,frolicking-highlight-blue))))
    `(secondary-selection ((t (:background ,frolicking-highlight-gray))))
-   `(highlight ((t (:background ,frolicking-highlight-gray))))
-   `(lazy-highlight ((t (:background ,frolicking-highlight-gray :inverse-video nil))))
+   `(highlight ((t (:background ,frolicking-highlight-yellow))))
+   `(lazy-highlight ((t (:background ,frolicking-highlight-yellow :inverse-video nil))))
    `(idle-highlight ((t (:background ,frolicking-highlight-gray))) t)
    `(isearch ((t (:background ,frolicking-highlight-yellow))))
    `(font-lock-builtin-face ((t (:foreground ,frolicking-orange))))
